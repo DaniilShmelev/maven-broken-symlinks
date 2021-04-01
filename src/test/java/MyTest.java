@@ -25,11 +25,11 @@ public class MyTest {
                 System.out.println(path);
             });
         
-        BufferedReader reader = new BufferedReader(new FileReader(file));
-        String currentLine = reader.readLine();
-        reader.close();
-        System.out.println("Line");
-        System.out.println(currentLine);
-        assertEquals(expected_value, currentLine);
+        // BufferedReader reader = new BufferedReader(new FileReader(file));
+        // String currentLine = reader.readLine();
+        // reader.close();
+        // System.out.println("Line");
+        // System.out.println(currentLine);
+        // assertEquals(expected_value, currentLine);
     }
 }
