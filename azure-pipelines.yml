@@ -2,7 +2,8 @@ steps:
 - task: MavenFail@3
   inputs:
     mavenPomFile: 'pom.xml'
-    publishJUnitResults: false
+    publishJUnitResults: true
+    testResultsFiles: '**/surefire-reports/TEST-*.xml'
     allowBrokenSymlinks: false
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
