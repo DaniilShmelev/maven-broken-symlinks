@@ -1,3 +1,5 @@
+pool: Windows
+
 steps:
 - task: MavenFail@3
   inputs:
