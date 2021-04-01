@@ -4,7 +4,6 @@ steps:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
     testResultsFiles: '**/surefire-reports/TEST-*.xml'
-    allowBrokenSymlinks: false
     javaHomeOption: 'JDKVersion'
     jdkVersionOption: '1.8'
     mavenVersionOption: 'Default'
