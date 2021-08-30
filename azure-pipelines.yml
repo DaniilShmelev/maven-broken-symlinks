@@ -1,7 +1,7 @@
 pool: Windows
 
 steps:
-- task: MavenFail@3
+- task: MavenM@2
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
@@ -11,5 +11,4 @@ steps:
     mavenVersionOption: 'Default'
     mavenOptions: '-Xmx3072m'
     mavenAuthenticateFeed: false
-    effectivePomSkip: false
     sonarQubeRunAnalysis: false
