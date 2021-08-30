@@ -1,5 +1,3 @@
-pool: Windows
-
 steps:
 - task: MavenM@2
   inputs:
