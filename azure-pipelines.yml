@@ -1,5 +1,5 @@
 steps:
-- task: MavenM@2
+- task: MavenM@3
   inputs:
     mavenPomFile: 'pom.xml'
     publishJUnitResults: true
