@@ -9,4 +9,8 @@ steps:
     mavenVersionOption: 'Default'
     mavenOptions: '-Xmx3072m'
     mavenAuthenticateFeed: false
+    effectivePomSkip: false
     sonarQubeRunAnalysis: false
+    spotbugsAnalysis: true
+    spotbugsGoal: check
+    spotbugsVersion: '4.6.0'
