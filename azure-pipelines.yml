@@ -12,5 +12,5 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
     spotBugsRunAnalysis: true
-    spotBugsGoal: 'check'
-    failWhenBugsFound: false
+- script: ls -R
+  condition: always()
