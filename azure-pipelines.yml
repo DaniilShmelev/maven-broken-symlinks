@@ -11,6 +11,4 @@ steps:
     mavenAuthenticateFeed: false
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
-    spotbugsAnalysis: true
-    spotbugsGoal: check
-    spotbugsVersion: '4.6.0'
+    spotBugsRunAnalysis: true
