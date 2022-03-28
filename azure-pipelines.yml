@@ -12,3 +12,5 @@ steps:
     effectivePomSkip: false
     sonarQubeRunAnalysis: false
     spotBugsRunAnalysis: true
+    spotBugsGoal: 'check'
+    failWhenBugsFound: false
